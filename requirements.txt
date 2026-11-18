@@ -1,0 +1,22 @@
+# =============================================================================
+# requirements.txt — Smart Glasses Assistive System
+# Install: pip install -r requirements.txt
+# System:  sudo apt install espeak-ng portaudio19-dev
+# =============================================================================
+
+# --- Computer Vision & AI -------------------------------------------------
+ultralytics           # YOLOv8 object detection
+opencv-python         # Frame capture and image processing
+opencv-contrib-python # WLS stereo depth filtering
+numpy                 # Array and matrix operations
+
+# --- Speech ---------------------------------------------------------------
+faster-whisper        # On-device Whisper speech recognition (STT)
+espeak               # Text-to-speech for navigation module
+pyaudio               # Microphone audio capture
+
+# --- Navigation -----------------------------------------------------------
+networkx              # Campus route graph and pathfinding
+
+# --- Utilities ------------------------------------------------------------
+Pillow                # Image handling utilities
